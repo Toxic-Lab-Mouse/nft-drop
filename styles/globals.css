@@ -20,7 +20,7 @@
   /* Color of the border around items */
   --border-color: none;
   /*Shadow around fonts*/
-  --text-shadow: 1px 1px 10px #9dff00, 1px 1px 10px #ccc;
+  --text-shadow: 1px 1px 8px #000000,1px 1px 7px #af0;
 }
 
 /* --- Don't need to modify below here --- */
