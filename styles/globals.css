@@ -6,7 +6,7 @@
   --background-image: url("https://toxicmousetown.wtf/wp-content/uploads/2023/02/BG.png");
 
   /* Color of the text/words */
-  --text-color: #fff;
+  --text-color: #000000;
 
   /* Main color of your brand */
   --color-primary: #f213a4;
@@ -19,6 +19,8 @@
 
   /* Color of the border around items */
   --border-color: none;
+  /*Shadow around fonts*/
+  --text-shadow: 1px 1px 10px #9dff00, 1px 1px 10px #ccc;
 }
 
 /* --- Don't need to modify below here --- */
@@ -29,6 +31,7 @@ body {
   background: var(--background-image);
   font-family: var(--font);
   color: var(--text-color);
+  text-shadow: var(--text-shadow);
 
   display: flex;
   margin: 0;
