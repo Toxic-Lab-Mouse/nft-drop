@@ -16,6 +16,7 @@ export default function ThirdwebGuideFooter() {
           transform: "rotate(45deg)",
           backgroundColor: " #262935",
           cursor: "pointer",
+          display: "none",
         }}
         role="button"
         onClick={() => window.open(url, "_blank")}
