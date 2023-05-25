@@ -197,7 +197,7 @@
   opacity: 0.75;
   margin-top: -20px;
 }
-.Button {
+.home {
   cursor: pointer;
   display: inline-flex;
   appearance: none;
@@ -229,7 +229,7 @@
   border-style: none;
 }
 
-.Button:hover {
+.home:hover {
   opacity: 0.8;
 }
 

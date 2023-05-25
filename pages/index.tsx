@@ -218,9 +218,11 @@ const Home: NextPage = () => {
         ) : (
           <>
            <div>
+           <div className={`${styles.home}`}>
              <a href="http://www.toxicmousetown.wtf">
-             <Button className={`${styles.Button}`}>Home</Button>
+             Home
             </a>
+            </div>
            </div>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
