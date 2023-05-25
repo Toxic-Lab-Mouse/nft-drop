@@ -219,7 +219,7 @@ const Home: NextPage = () => {
           <>
            <div>
            <div className={`${styles.home}`}>
-             <a href="http://www.toxicmousetown.wtf" target="_blank">
+             <a href="http://www.toxicmousetown.wtf" target="_blank" style="color:white;">
              Home
             </a>
             </div>
