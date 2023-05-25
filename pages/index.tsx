@@ -218,7 +218,7 @@ const Home: NextPage = () => {
         ) : (
           <>
            <div className={`${styles.Button}`}>
-             <a href="www.toxicmousetown.wtf">
+             <a href="http://www.toxicmousetown.wtf">
              <button>Home</button>
             </a>
            </div>
