@@ -217,6 +217,11 @@ const Home: NextPage = () => {
           <p>Loading...</p>
         ) : (
           <>
+           <div>
+             <a href="www.toxicmousetown.wtf">
+             <button>Home</button>
+            </a>
+           </div>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
@@ -302,7 +307,7 @@ const Home: NextPage = () => {
                         isDisabled={!canClaim || buttonLoading}
                         onError={(err) => {
                           console.error(err);
-                          alert("Error claiming NFTs");
+                          alert("Insufficient Balance");
                         }}
                         onSuccess={() => {
                           setQuantity(1);
