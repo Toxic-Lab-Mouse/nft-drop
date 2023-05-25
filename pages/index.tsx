@@ -217,7 +217,7 @@ const Home: NextPage = () => {
           <p>Loading...</p>
         ) : (
           <>
-           <div>
+           <div className={`${styles.Button}`}>
              <a href="www.toxicmousetown.wtf">
              <button>Home</button>
             </a>
