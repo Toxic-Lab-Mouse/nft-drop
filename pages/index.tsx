@@ -218,8 +218,8 @@ const Home: NextPage = () => {
         ) : (
           <>
            <div>
-           <div className={`${styles.home}`} style="margin-top:-400px;margin-right:-200px;">
-             <a href="http://www.toxicmousetown.wtf">
+           <div className={`${styles.home}`}>
+             <a href="http://www.toxicmousetown.wtf" target="_blank">
              Home
             </a>
             </div>

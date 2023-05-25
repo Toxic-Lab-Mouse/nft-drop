@@ -217,11 +217,7 @@
   min-width: 3rem;
   font-size: 1rem;
   background: #e5e5ea;
-  background-image: linear-gradient(
-    to left,
-    var(--color-primary) 0%,
-    var(--color-secondary) 101.52%
-  );
+  background-color: black;
   color: #fff;
   padding: 20px;
   text-align: center;
