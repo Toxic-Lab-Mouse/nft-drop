@@ -217,6 +217,12 @@ const Home: NextPage = () => {
           <p>Loading...</p>
         ) : (
           <>
+          <div>
+      <a href="www.toxicmousetown.wtf">
+        <button>Posts</button>
+      </a>
+    </div>
+  );
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
