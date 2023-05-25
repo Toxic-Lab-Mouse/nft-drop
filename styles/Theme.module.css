@@ -231,6 +231,8 @@
   border-radius: 9999px;
   border-style: none;
   text-decoration: none;
+  margin-top: -400px;
+  margin-right: -200px;
 }
 
 .home:hover {
