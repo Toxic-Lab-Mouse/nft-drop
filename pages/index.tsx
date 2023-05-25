@@ -219,7 +219,7 @@ const Home: NextPage = () => {
           <>
            <div className={`${styles.Button}`}>
              <a href="http://www.toxicmousetown.wtf">
-             <button>Home</button>
+             Home
             </a>
            </div>
             <div className={styles.infoSide}>
