@@ -188,7 +188,7 @@ const Home: NextPage = () => {
         activeClaimCondition.data?.currencyMetadata.value || 0
       );
       if (pricePerToken.eq(0)) {
-        return "Mint (Free)";
+        return "Congrats Mint (Free)";
       }
       return `Mint (${priceToMint})`;
     }
@@ -199,7 +199,7 @@ const Home: NextPage = () => {
       return "Checking eligibility...";
     }
 
-    return "Claiming not available";
+    return "Claiming not available early stage in progress";
   }, [
     isSoldOut,
     canClaim,
@@ -306,7 +306,7 @@ const Home: NextPage = () => {
                   <div className={styles.mintContainer}>
                     {isSoldOut ? (
                       <div>
-                        <h2>Sold Out</h2>
+                        <h2>Sold Out LFG</h2>
                       </div>
                     ) : (
                       <Web3Button
@@ -319,7 +319,7 @@ const Home: NextPage = () => {
                         }}
                         onSuccess={() => {
                           setQuantity(1);
-                          alert("Successfully claimed NFTs");
+                          alert("Welcome to the TOXIC Pack, Successfully claimed NFTs");
                         }}
                       >
                         {buttonLoading ? "Loading..." : buttonText}
