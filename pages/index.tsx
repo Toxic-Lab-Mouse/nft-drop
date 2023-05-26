@@ -224,6 +224,13 @@ const Home: NextPage = () => {
             </a>
             </div>
            </div>
+           <div>
+           <div className={`${styles.home}`}>
+             <a href="http://www.toxicmousetown.wtf/whitelist" target="_blank" className={`${styles.a}`}>
+             Whitelist
+            </a>
+            </div>
+           </div>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
@@ -265,8 +272,7 @@ const Home: NextPage = () => {
               ) ? (
                 <div>
                   <h2>
-                    This drop is not ready to be minted yet. (No claim condition
-                    set)
+                    This drop is not ready to be minted yet. (WL in progress)
                   </h2>
                 </div>
               ) : !activeClaimCondition.data && claimConditions.data ? (
