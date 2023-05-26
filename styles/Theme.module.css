@@ -4,6 +4,7 @@
 }
 .a:hover {
   opacity: 0.8;
+  color: chartreuse;
 }
 .container {
   margin-top: 96px;
