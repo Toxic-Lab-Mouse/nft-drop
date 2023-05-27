@@ -267,7 +267,7 @@
   border-style: none;
   text-decoration: none;
   margin-top: -400px;
-  margin-right: 0px;
+  margin-right: -400px;
 }
 
 .white:hover {
