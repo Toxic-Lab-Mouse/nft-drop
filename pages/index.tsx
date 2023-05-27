@@ -225,7 +225,7 @@ const Home: NextPage = () => {
             </div>
            </div>
            <div>
-           <div className={`${styles.home}`}>
+           <div className={`${styles.white}`}>
              <a href="http://www.toxicmousetown.wtf/whitelist" target="_blank" className={`${styles.a}`}>
              Whitelist
             </a>
