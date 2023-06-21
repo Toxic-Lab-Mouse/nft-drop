@@ -266,7 +266,7 @@ const Home: NextPage = () => {
               ) ? (
                 <div>
                   <h2>
-                    This drop is not ready to be minted yet. (WL in progress)
+                    This drop is not ready to be minted yet. (MINT:30/06/23)
                   </h2>
                 </div>
               ) : !activeClaimCondition.data && claimConditions.data ? (
