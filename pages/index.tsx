@@ -224,13 +224,6 @@ const Home: NextPage = () => {
             </a>
             </div>
            </div>
-           <div>
-           <div className={`${styles.white}`}>
-             <a href="http://www.toxicmousetown.wtf/whitelist" target="_blank" className={`${styles.a}`}>
-             T&C
-            </a>
-            </div>
-           </div>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
