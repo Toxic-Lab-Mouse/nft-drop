@@ -220,7 +220,7 @@ const Home: NextPage = () => {
            <div>
            <div className={`${styles.home}`}>
              <a href="http://www.toxicmousetown.wtf" target="_blank" className={`${styles.a}`}>
-             TMT Home
+             Home
             </a>
             </div>
            </div>
